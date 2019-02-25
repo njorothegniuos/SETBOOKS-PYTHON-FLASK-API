@@ -1,5 +1,5 @@
 # SETBOOKS-PYTHON-FLASK-API
-A simple Set books API,
+A simple Set books RESTFul API in Flask With JSON Web Token Authentication and Flask-SQLAlchemy -
 To access this api end points an auth token is requierd.
 To generate an auth token the login method is called : #method used to generate an auth token.user passes in user name and thier password.once authenticated, an access token is generated. The token expires after 30 minutes. The token must be passed in every api call.
 
